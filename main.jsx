@@ -1,7 +1,10 @@
-const grid = document.createElement("div")
-grid.classList.add("ind-grid")
+const body = document.body
 function sketchDivs() {
-    for(i=0; i<254; i++) {
+    
+    for(let i=0; i<255; i++) {
+        const grid = document.createElement("div")
+        grid.classList.add("ind-grid")
+
         body.appendChild(grid)
         console.log("div added")
     }
