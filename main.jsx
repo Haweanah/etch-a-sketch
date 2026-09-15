@@ -5,6 +5,10 @@ const popup = document.querySelector(".popup")
 body.appendChild(btnDiv)
 btn.textContent = "Choose a grid style"
 const mainDiv = document.querySelector("body > div")
+
+btn.addEventListener("click", () => {
+    popup.classList.toggle("show")
+})
 function sketchDivs() {
     
     for(let i=0; i<256; i++) {
