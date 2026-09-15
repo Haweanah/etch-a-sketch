@@ -1,7 +1,9 @@
 const body = document.body
-const btn = document.createElement("button")
-btn.classList.add("btn")
-body.appendChild(btn)
+const btn = document.querySelector(".btn")
+const btnDiv = document.querySelector(".btn-div")
+const popup = document.querySelector(".popup")
+body.appendChild(btnDiv)
+btn.textContent = "Choose a grid style"
 const mainDiv = document.querySelector("body > div")
 function sketchDivs() {
     
