@@ -7,7 +7,11 @@ function sketchDivs() {
 
         mainDiv.appendChild(grid)
         console.log("div added")
+        grid.addEventListener("mouseover", () => {
+            grid.classList.add("active")
+        })
     }
 }
 sketchDivs();
 console.log("testing")
+

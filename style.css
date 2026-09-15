@@ -6,11 +6,17 @@
 
 .ind-grid {
     background-color: orange;
-    width: 70px;
-    height: 70px;
     border: 1px solid black;
     flex-basis: 6.25%;
     aspect-ratio: 1;
+}
+
+.ind-grid:hover {
+    background-color: brown;
+}
+
+.ind-grid.active {
+    background-color: darkgray;
 }
 
 .main-div {
