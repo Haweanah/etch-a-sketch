@@ -43,16 +43,13 @@ body {
 .ind-grid {
     background-color: orange;
     border: 1px solid black;
-    flex-basis: 6.25%;
+    flex-basis: calc(100%/ var(--grid-size));
     aspect-ratio: 1;
 }
 
-.ind-grid:hover {
-    background-color: brown;
-}
 
 .ind-grid.active {
-    background-color: darkgray;
+    background-color: black;
 }
 
 .main-div {
