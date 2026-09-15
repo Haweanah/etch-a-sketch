@@ -1,3 +1,7 @@
+const body = document.body
+const btn = document.createElement("button")
+btn.classList.add("btn")
+body.appendChild(btn)
 const mainDiv = document.querySelector("body > div")
 function sketchDivs() {
     
