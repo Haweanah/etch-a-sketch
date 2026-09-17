@@ -35,7 +35,7 @@ gridBtn.forEach(button => {
         const size = button.dataset.size
         console.log("Selected size:", size);
         mainDiv.innerHTML = ""
-        mainDiv.style.setProperty("--grid-size", size);
+        mainDiv.style.setProperty("-grid-size", size);
         sketchDivs(size)
         popup.classList.remove("show")
     })

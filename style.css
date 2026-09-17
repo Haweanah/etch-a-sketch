@@ -52,6 +52,11 @@ body {
     background-color: black;
 }
 
+
+.ind-grid.active:nth-child(even) {
+    background-color: pink;
+}
+
 .main-div {
     display: flex;
     flex-wrap: wrap;
